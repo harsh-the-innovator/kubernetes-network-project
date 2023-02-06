@@ -17,8 +17,5 @@ spec:
           image: harsh043/kub-demo-users:latest
           env:
             - name: AUTH_ADDRESS
-              value: localhost
-          resources:
-        - name: auth-api-container
-          image: harsh043/kub-demo-auth:latest
+              value: "10.101.176.121"
           resources:
