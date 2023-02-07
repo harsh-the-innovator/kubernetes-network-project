@@ -14,4 +14,6 @@ services:
     ports:
       - "8000:8000"
     environment:
-      TASKS_FOLDER: tasks
+      - TASKS_FOLDER=tasks
+      - AUTH_ADDRESS=auth
+      - AUTH_SERVICE_SERVICE_HOST=auth
